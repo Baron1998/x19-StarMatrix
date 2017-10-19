@@ -16,10 +16,10 @@ int main()
   cin>> rowNumber;
   cout<<" Enter columns of stars\n";
   cin>> colNumber;
-  star.resize(rowNumber);
+
 if (rowNumber >0 && colNumber>0 )
   {
-
+    star.resize(rowNumber);
     
   for( int row= 0; row<star.size();row++)
     {
