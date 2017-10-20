@@ -12,9 +12,8 @@ int main()
   int rowNumber;
   int colNumber;
   
-  cout<< "Enter rows of stars\n";
+  cout<< "Enter rows and columns of stars:\n";
   cin>> rowNumber;
-  cout<<" Enter columns of stars\n";
   cin>> colNumber;
 
 if (rowNumber >0 && colNumber>0 )
